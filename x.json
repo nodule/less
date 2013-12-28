@@ -1,0 +1,46 @@
+{
+  "name": "less",
+  "description": "Less Renderer for Chiχ",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodule/less.git"
+  },
+  "dependencies": {
+    "less": "1.x.x"
+  },
+  "nodes": [
+    {
+      "ports": {
+        "input": {
+          "less": {
+            "title": "Less",
+            "type": "string",
+            "required": true
+          }
+        },
+        "output": {
+          "error": {
+            "title": "Error",
+            "type": "object"
+          },
+          "css": {
+            "title": "CSS",
+            "type": "string"
+          }
+        }
+      },
+      "require": {
+        "less": "latest"
+      },
+      "phrases": {
+        "active": "Rendering LESS"
+      },
+      "description": "Less Renderer",
+      "ns": "less",
+      "name": "render",
+      "fn": "output = [less, 'render', input.less]\n"
+    }
+  ],
+  "twigs": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "nodule-less",
+  "description": "Less Renderer for Chiχ",
+  "author": "Rob Halff <rob.halff@gmail.com>",
+  "version": "0.0.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodule/less.git"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "main": "x",
+  "scripts": {
+    "test": "chit -r"
+  },
+  "dependencies": {
+    "less": "1.x.x"
+  },
+  "devDependencies": {
+    "chit": "0.x.x"
+  },
+  "chix": {
+    "name": "less",
+    "color": "rgb(5,116,136)"
+  }
+}

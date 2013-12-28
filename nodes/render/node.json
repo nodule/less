@@ -1,0 +1,30 @@
+{
+  "name": "render",
+  "ns": "less",
+  "description": "Less Renderer",
+  "phrases": {
+    "active": "Rendering LESS"
+  },
+  "require": {
+    "less": "latest"
+  },
+  "ports": {
+    "input": {
+      "less": {
+        "title": "Less",
+        "type": "string",
+        "required": true
+      }
+    },
+    "output": {
+      "error": {
+        "title": "Error",
+        "type": "object"
+      },
+      "css": {
+        "title": "CSS",
+        "type": "string"
+      }
+    }
+  }
+}

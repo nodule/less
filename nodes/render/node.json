@@ -5,9 +5,6 @@
   "phrases": {
     "active": "Rendering LESS"
   },
-  "require": {
-    "less": "latest"
-  },
   "ports": {
     "input": {
       "less": {
@@ -25,6 +22,11 @@
         "title": "CSS",
         "type": "string"
       }
+    }
+  },
+  "dependencies": {
+    "npm": {
+      "less": "latest"
     }
   }
 }

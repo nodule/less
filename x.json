@@ -11,6 +11,11 @@
   },
   "nodes": [
     {
+      "dependencies": {
+        "npm": {
+          "less": "latest"
+        }
+      },
       "ports": {
         "input": {
           "less": {
@@ -29,9 +34,6 @@
             "type": "string"
           }
         }
-      },
-      "require": {
-        "less": "latest"
       },
       "phrases": {
         "active": "Rendering LESS"

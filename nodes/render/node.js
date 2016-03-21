@@ -1,1 +1,1 @@
-output = [less, 'render', input.less]
+output = [less, 'render', $.less]

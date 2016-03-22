@@ -41,7 +41,7 @@
       "description": "Less Renderer",
       "ns": "less",
       "name": "render",
-      "fn": "output = [less, 'render', input.less]\n"
+      "fn": "output = [less, 'render', $.less]\n"
     }
   ],
   "twigs": []

@@ -11,10 +11,11 @@
   },
   "nodes": [
     {
-      "dependencies": {
-        "npm": {
-          "less": "latest"
-        }
+      "name": "render",
+      "ns": "less",
+      "description": "Less Renderer",
+      "phrases": {
+        "active": "Rendering LESS"
       },
       "ports": {
         "input": {
@@ -35,14 +36,12 @@
           }
         }
       },
-      "phrases": {
-        "active": "Rendering LESS"
+      "dependencies": {
+        "npm": {
+          "less": "latest"
+        }
       },
-      "description": "Less Renderer",
-      "ns": "less",
-      "name": "render",
       "fn": "output = [less, 'render', $.less]\n"
     }
-  ],
-  "twigs": []
+  ]
 }
